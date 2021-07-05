@@ -2,6 +2,7 @@ body{
     font-family: 'Trocchi', serif;
     margin:0;
 }
+
 h1{
     font-size: 55px;
 }
@@ -10,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .bgimage{
     background-image:url(top-banner.png);
@@ -17,7 +19,7 @@ section{
 
 }
 .half{
-    width:50%;
+    width:70%;
     padding-left: 5%;
 }
 .half img{
@@ -26,8 +28,12 @@ section{
 }
 .link-button{
    text-decoration:none;
-    background-image:linear-gradient(yellow,orange);
+    background-image:linear-gradient(rgb(255, 0, 85),rgb(250, 38, 23));
     color:white;
     padding:10px 40px;
     font-weight: 700px;
+}
+.dream{
+    background-image: url(dream-bg.png);
+    background-repeat:no-repeat ;
 }
