@@ -9,7 +9,7 @@ h1{
 .name{
     color:rgb(221, 68, 12);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -17,6 +17,35 @@ section{
     background-image:url(top-banner.png);
     background-repeat: no-repeat;
 
+}
+.experience-iteam{
+   
+    width:40%;
+    padding-left: 10%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+
+}
+h2{
+    font-size: 35px;
+}
+.experience-area{
+   background-image: url(exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: left;
+}
+#web-experience{
+    border-left:7px solid;
+    border-image:linear-gradient(rgb(21, 21, 90),rgba(120, 223, 223, 0.719));
+    border-image-slice: 1;
+}
+#full-web{
+    border-left:7px solid;
+    border-image:linear-gradient(rgb(236, 142, 19),rgba(233, 8, 8, 0.719));
+    border-image-slice: 1;
 }
 .half{
     width:70%;
@@ -26,6 +55,7 @@ section{
     width: 75%;
     padding-top: 10%;
 }
+
 .link-button{
    text-decoration:none;
     background-image:linear-gradient(rgb(255, 0, 85),rgb(250, 38, 23));
@@ -33,7 +63,12 @@ section{
     padding:10px 40px;
     font-weight: 700px;
 }
+footer p{
+    text-align: center;
+}
 .dream{
     background-image: url(dream-bg.png);
     background-repeat:no-repeat ;
+    background-position:left;
+
 }
